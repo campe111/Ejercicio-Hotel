@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var HabitacionStandar_1 = require("./HabitacionStandar");
+var HabitacionSuit_1 = require("./HabitacionSuit");
+var Servicio_1 = require("./Servicio");
+var habitacionBarata = new HabitacionStandar_1.HabitacionStandar("libre", 1);
+var habitacionCara = new HabitacionSuit_1.HabitacionSuit("libre", 10);
+habitacionBarata.reservar();
+habitacionBarata.reservar();
+habitacionBarata.liberar();
+habitacionBarata.agregarServicio(new Servicio_1.Servicio("servicio a la habitacion", 2500, false));
+console.log(habitacionBarata);
+habitacionBarata.costoTotal();
+habitacionCara.costoTotal();
