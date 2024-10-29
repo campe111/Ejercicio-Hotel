@@ -13,4 +13,6 @@ diego maldonado
 francisco ariel fernandez
 diego fisher 
 wanda hernandez
-ricky krotter
+ricardo krotter
+jose luis labourdete
+lautaro gallo
