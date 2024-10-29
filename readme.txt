@@ -14,5 +14,4 @@ francisco ariel fernandez
 diego fisher 
 wanda hernandez
 ricardo krotter
-jose luis labourdete
 lautaro gallo
